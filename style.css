@@ -297,12 +297,7 @@ body{
 .fifth-big{
 	padding: 70px 0;
 }
-.teambox{
-	padding: 20px 80px;
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-}
+
 .tbox{
 	position: relative;
 	margin: 4px 2px 20px 2px;
@@ -373,4 +368,18 @@ font-size: 28px
 	font-size: 15px;
 	text-decoration: none;
 	color: #eee;
+}
+.teambox{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+#memberss {
+	text-align: center;
+	position: relative;
+	width: 100%;
+}
+#memberss tr td {
+	padding-left: 8.75%;
 }
