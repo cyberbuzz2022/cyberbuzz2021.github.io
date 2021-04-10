@@ -2,6 +2,8 @@ body{
 	margin: 0;
 	font-family: 'Raleway', sans-serif;
 }
+
+
 .heading{
 	font-weight: 300;
 	padding: 40px 0 60px 0;
@@ -11,25 +13,29 @@ body{
 .top-head{
 	border-bottom: solid 1px #10bfde;
 }
+
+
 .big-box{
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
 }
 .big-item{
-	margin-bottom: 10px;
+	margin: 0px 10px 10px 10px;
 	height: 275px;
 	width: 275px;
 }
 .big{
 	padding-bottom: 5px;
-	height: 85%;
-	width: 85%;
+	height: 90%;
+	width: 90%;
 }
 .big-post{
 	font-weight: bold;
 	color: #333;
 }
+
+
 .box{
 	display: flex;
 	padding: 80px 100px 40px 100px;
@@ -37,13 +43,13 @@ body{
 	flex-wrap: wrap;
 }
 .b-item{
-	margin: 1px 2px 25px 2px;
+	margin: 0px 20px 25px 20px;
 	height: 250px;
 	width: 250px;
 }
 .b-img{
-	height: 90%;
-	width: 90%;
+	height: 100%;
+	width: 100%;
 }
 .b-post{
 	font-weight: bold;
@@ -53,3 +59,29 @@ body{
 .name{
 	font-size: 15px;
 }
+
+
+.bb-box{
+	display: flex;
+	padding: 40px 100px 40px 100px;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.bb-item{
+	margin: 0px 20px 25px 20px;
+	height: 250px;
+	width: 250px;
+}
+.bb-img{
+	height: 100%;
+	width: 100%;
+}
+.bb-post{
+	font-weight: bold;
+	font-size: 15px;
+	color: #333;
+}
+.bb-name{
+	font-size: 15px;
+}
+
