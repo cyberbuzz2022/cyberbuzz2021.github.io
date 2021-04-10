@@ -173,7 +173,7 @@ body{
 	background-color: rgba(0,0,0,0.2);
 	overflow: hidden;
 	width: 0;
-	height: 150%;
+	height: 83%;
 	transition: .2s ease-in-out;
 }
 .tbox:hover .mem{
@@ -299,9 +299,11 @@ body{
 }
 
 .tbox{
+	height: 250px;
 	position: relative;
 	margin: 4px 2px 20px 2px;
 	width: 200px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .designation{
 font-family: 'Roboto', sans-serif;
@@ -378,8 +380,8 @@ font-size: 28px
 #memberss {
 	text-align: center;
 	position: relative;
-	width: 100%;
+	width: 80%;
 }
 #memberss tr td {
-	padding-left: 8.75%;
+	padding-left: 7%;
 }
