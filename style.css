@@ -386,3 +386,21 @@ font-size: 28px
 #memberss tr td {
 	padding-left: 7%;
 }
+
+#discord {
+	text-decoration: none;
+
+	margin-top: -100px;
+	width: 15%;
+	transition: all 0.2s;
+}
+#discord:hover {
+	width: 17%;
+	height: 13%;
+}
+a:visited {
+	text-decoration: none;
+}
+a:link {
+	text-decoration: none;
+}
